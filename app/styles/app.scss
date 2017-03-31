@@ -1,0 +1,51 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.insta {
+  height: 60px;
+}
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../images/phone.png');
+  margin: 10px 0;
+}
+
+.contact-info li.github a {
+  background-image: url('../images/github-10-xxl.png');
+  margin: 10px 0;
+}
+
+.contact-info li.mail a {
+  background-image: url('../images/mail.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../images/facebook.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../images/twitter.png');
+}
