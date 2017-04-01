@@ -6,6 +6,22 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
 
+//variables
+
+//HSLA
+$color1h: hsla(195%, 46%, 5%, 1);
+$color2h: hsla(190%, 72%, 48%, 1);
+$color3h: hsla(194%, 35%, 60%, 1);
+$color4h: hsla(211%, 16%, 68%, 1);
+$color5h: hsla(220%, 5%, 88%, 1);
+
+/* RGB */
+$color1: rgba(7, 16, 19, 1);
+$color2: rgba(35, 181, 211, 1);
+$color3: rgba(117, 171, 188, 1);
+$color4: rgba(162, 174, 187, 1);
+$color5: rgba(223, 224, 226, 1);
+
 *,
 *::before,
 *::after {
@@ -16,6 +32,24 @@ img {
   max-width: 100%;
 }
 
+//main nav style
+#nav-bar-home {
+  display: flex;
+  align-items: center;
+  background-color: $color3;
+  color: $color1;
+  padding: 50px;
+}
+
+#logo-jb3 {
+
+  height: 200px;
+
+}
+
+#profile-pic {
+  border-radius: 15px;
+}
 .insta {
   height: 60px;
 }
