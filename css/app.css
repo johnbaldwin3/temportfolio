@@ -5758,6 +5758,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/* RGB */
 *,
 *::before,
 *::after {
@@ -5765,6 +5766,23 @@ button.close {
 
 img {
   max-width: 100%; }
+
+#nav-bar-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #75abbc;
+  color: #071013;
+  padding: 50px; }
+
+#logo-jb3 {
+  height: 200px; }
+
+#profile-pic {
+  border-radius: 15px; }
 
 .insta {
   height: 60px; }
