@@ -5782,6 +5782,21 @@ img {
 #logo-jb3 {
   height: 400px; }
 
+.name-header {
+  font-family: "Martel Sans", sans-serif; }
+
+.developer {
+  font-family: "Martel Sans", sans-serif; }
+
+.para, .para1 {
+  font-family: "Alegreya", serif; }
+
+.para1 {
+  font-size: 18px; }
+
+.about-header {
+  font-family: "Martel Sans", sans-serif; }
+
 #profile-pic {
   border-radius: 15px; }
 
@@ -5790,11 +5805,17 @@ img {
 
 .contact-info a {
   display: block;
-  min-height: 20px;
+  font-family: "Alegreya", serif;
+  font-size: 20px;
+  min-height: 16px;
   background-repeat: no-repeat;
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px; }
+
+.contact {
+  text-decoration: none;
+  list-style: none; }
 
 .contact-info li.phone a {
   background-image: url("../images/phone.png");
