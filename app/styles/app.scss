@@ -1,10 +1,10 @@
 
-// Bootstrap Variables
+// // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-
-// Import Bootstrap
+//
+// // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-
+// @import '../../node_modules/materialize-sass-origin/sass/materialize.scss';
 
 //variables
 
@@ -21,6 +21,10 @@ $color2: rgba(35, 181, 211, 1);
 $color3: rgba(117, 171, 188, 1);
 $color4: rgba(162, 174, 187, 1);
 $color5: rgba(223, 224, 226, 1);
+
+$sans1: 'Martel Sans', sans-serif;
+$sans2: 'Muli', sans-serif;
+$serif1: 'Alegreya', serif;
 
 *,
 *::before,
@@ -48,6 +52,27 @@ img {
 
 }
 
+.name-header {
+  font-family: $sans1;
+}
+
+.developer {
+  font-family: $sans1;
+}
+
+.para {
+  font-family: $serif1;
+}
+
+.para1 {
+  @extend .para;
+  font-size: 18px;
+}
+
+.about-header {
+  font-family: $sans1;
+}
+
 #profile-pic {
   border-radius: 15px;
 }
@@ -56,11 +81,19 @@ img {
 }
 .contact-info a {
   display: block;
-  min-height: 20px;
+  font-family: $serif1;
+  font-size: 20px;
+  min-height: 16px;
   background-repeat: no-repeat;
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+}
+
+.contact {
+  text-decoration: none;
+  list-style: none;
+
 }
 
 .contact-info li.phone a {
