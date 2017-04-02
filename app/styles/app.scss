@@ -3,8 +3,8 @@
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 //
 // // Import Bootstrap
-@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-// @import '../../node_modules/materialize-sass-origin/sass/materialize.scss';
+// @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../node_modules/materialize-css/sass/materialize.scss';
 
 //variables
 
@@ -22,6 +22,8 @@ $color3: rgba(117, 171, 188, 1);
 $color4: rgba(162, 174, 187, 1);
 $color5: rgba(223, 224, 226, 1);
 
+$color6: #3FA56A;
+
 $sans1: 'Martel Sans', sans-serif;
 $sans2: 'Muli', sans-serif;
 $serif1: 'Alegreya', serif;
@@ -38,17 +40,16 @@ img {
 
 //main nav style
 #nav-bar-home {
-  display: flex;
-  align-items: center;
+  height: 300px;
   background-color: $color3;
   color: $color1;
-  padding: 20px;
+  //padding: 15px;
   box-shadow: 1px 1px 1px black;
 }
 
 #logo-jb3 {
-
-  height: 400px;
+  padding: 15px;
+  height:300px;
 
 }
 
@@ -58,15 +59,22 @@ img {
 
 .developer {
   font-family: $sans1;
+  font-size: 2.3rem;
+}
+
+.langs {
+  @extend .developer;
+  font-size: 1.28rem;
 }
 
 .para {
+  font-size: 18px;
   font-family: $serif1;
 }
 
 .para1 {
   @extend .para;
-  font-size: 18px;
+
 }
 
 .about-header {
@@ -76,8 +84,21 @@ img {
 #profile-pic {
   border-radius: 15px;
 }
-.insta {
+
+#insta {
   height: 60px;
+
+}
+
+#logo {
+  margin-top: 2.3rem;
+  background-color: $color6;
+  color: white;
+  text-shadow: 0px 1px 0px $color1;
+}
+
+.github {
+  height: 62px;
 }
 .contact-info a {
   display: block;
@@ -96,13 +117,17 @@ img {
 
 }
 
+.page-footer {
+  background-color: $color3;
+}
+
 .contact-info li.phone a {
   background-image: url('../images/phone.png');
   margin: 10px 0;
 }
 
 .contact-info li.github a {
-  background-image: url('../images/github-10-xxl.png');
+  background-image: url('../images/github5.png');
   margin: 10px 0;
 }
 
