@@ -50,7 +50,7 @@ img {
 #logo-jb3 {
   padding: 15px;
   //margin: 20px 0 auto;
-  max-height:300px;
+  max-height:250px;
   min-height: 150px;
   //width: 100%;
 
@@ -127,7 +127,11 @@ img {
 
 .page-footer {
   background-color: $color2;
+  .footer-copyright {
+    background-color: rgba(51, 51, 51, 0.27);
+  }
 }
+
 
 .contact-info li.phone a {
   background-image: url('../images/phone.png');
@@ -163,6 +167,7 @@ img {
 }
 
 #construction {
+  margin: 18px 0;
   border-radius: 15px;
   max-height: 230px;
 }
