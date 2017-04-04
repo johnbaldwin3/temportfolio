@@ -6733,7 +6733,7 @@ img {
 
 #logo-jb3 {
   padding: 15px;
-  max-height: 300px;
+  max-height: 250px;
   min-height: 150px; }
 
 .name-header {
@@ -6783,8 +6783,13 @@ img {
   text-decoration: none;
   list-style: none; }
 
+.linked {
+  max-height: 60px; }
+
 .page-footer {
   background-color: #23b5d3; }
+  .page-footer .footer-copyright {
+    background-color: rgba(51, 51, 51, 0.27); }
 
 .contact-info li.phone a {
   background-image: url("../images/phone.png");
@@ -6819,6 +6824,7 @@ img {
   max-height: 60px; }
 
 #construction {
+  margin: 18px 0;
   border-radius: 15px;
   max-height: 230px; }
 
