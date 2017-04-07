@@ -6732,7 +6732,7 @@ img {
   box-shadow: 1px 1px 1px black; }
 
 #logo-jb3 {
-  padding: 15px;
+  margin-top: 30px;
   max-height: 250px;
   min-height: 150px; }
 
@@ -6751,7 +6751,8 @@ img {
   font-family: "Alegreya", serif; }
 
 .about-header {
-  font-family: "Martel Sans", sans-serif; }
+  font-family: "Martel Sans", sans-serif;
+  color: #071013; }
 
 #profile-pic {
   border-radius: 15px;
