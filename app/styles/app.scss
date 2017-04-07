@@ -48,7 +48,7 @@ img {
 }
 
 #logo-jb3 {
-  padding: 15px;
+  margin-top: 30px;
   //margin: 20px 0 auto;
   max-height:250px;
   min-height: 150px;
@@ -58,6 +58,7 @@ img {
 
 .name-header {
   font-family: $sans1;
+
 }
 
 .developer {
@@ -82,11 +83,15 @@ img {
 
 .about-header {
   font-family: $sans1;
+  color: $color1;
 }
 
 #profile-pic {
   border-radius: 15px;
   margin-top: 40px;
+  //max-height: 200px;
+
+
 }
 
 #insta {
